@@ -17,9 +17,71 @@
 
 
 // TODO: Include packages needed for this application
+const fs = require('fs');
+const inquirer = require('inquirer');
+
+
 
 // TODO: Create an array of questions for user input
-const questions = [];
+const projectDescription = () => {
+    console.log(`
+    =================
+    Description of Project
+    =================
+    `);
+    return inquirer.prompt([
+        {
+            type: 'input',
+            name: 'title',
+            message: 'What is the title of your project?'
+        },
+        // *Add option for description
+        {
+            type: 'input',
+            name: 'motivation',
+            message: 'What was your motivation for this project?'
+        },
+        {
+            type: 'input',
+            name: 'solutions',
+            message: 'What problem does it solve?'
+        },
+        {
+            type: 'input',
+            name: 'takeaways',
+            message: 'What did you learn?'
+        },
+        {
+            type: 'confirm',
+            name: 'addContents',
+            message: 'Would you like to add a table of contents?',
+            default: false,
+        }
+    ])
+    .then(descriptionData => {
+        if (descriptionData.confirmAddContents) {
+            return tableOfContents(descriptionData);
+        } else {
+            installationQuestions(descriptionData);
+        }
+    })
+};
+
+// ! FIX THE SKIP OVER TABLE OF CONTENTS
+const tableOfContents = descriptionData => {
+    console.log(`
+    =============
+    Table of Contents
+    =============
+    `);
+    return inquirer.prompt([])
+}
+
+const installationQuestions = descriptionData => {
+    console.log('I am from a diff function');
+}
+
+projectDescription()
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
