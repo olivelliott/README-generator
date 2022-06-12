@@ -51,7 +51,7 @@ ${ usage }
 ## License
 This application is licensed under the ${ license } license. Please click on the link below to learn more.
 
-(${renderLicenseLink(license)})
+![${renderLicenseLink(license)}]
 
 
 ## Contributing
@@ -66,7 +66,7 @@ ${ tests }
 
 Please direct any questions about this project to ${ email }. If you would like to see more projects, visit the GitHub link below.
 
-[GitHub] (https://www.github.com/${ link })
+![GitHub] (https://www.github.com/${ link })
 `;
 };
 

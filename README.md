@@ -1,11 +1,47 @@
-# Professional README Generator Starter Code
+# README Generator
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+## Description
+A command-line application that dynamically generates a professional README.md file based on user input.
+
+This generator was created so that users can quickly create a professional README from a curated professional template to display each open source project.
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+Once you have forked this repository to your local system, please initialize the npm modules into the repo through the command 
+`npm init`
+
+## Usage
+
+- The `index.js` file contains the question prompt for the README generator
+- Initialize your command-line and move to the 'Develop' folder in the repository
+- Initialize the generator by going to your computer terminal and enter `node index.js` into your command line 
+- Answer the following questions
+- You can find your completed README file in the 'dist' folder named 'README.md'
+
+This generator can be used to save time and keystrokes for a GitHub contributor. High quality README files are important for open source projects on GitHub to increase the likelihood that other developers will contribute to the success of a project. They also provide accessibility to your applications so that your projects can be used in a wider scope.
+
+!(./assets/images/#)
+
+## License
+This application is licensed under the MIT license. Please click on the link below to learn more.
+
+![(https://opensource.org/licenses/MIT)]
 
 
-<!-- When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project.
+## Contributing
 
-You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package (Links to an external site.). Review the Professional README Guide (Links to an external site.) as a reminder of everything that a high-quality, professional README should contain.
- -->
+## Questions
+
+Please direct any questions about this project to olivelliott48@gmail.com. If you would like to see more projects, visit the GitHub link below.
+
+![GitHub] (https://www.github.com/olivelliott)
+
+
