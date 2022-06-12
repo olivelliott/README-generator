@@ -41,7 +41,7 @@ ${ description }
 - [License](#license)
 
 ## Installation
-- ${ steps }
+${ steps }
 
 ## Usage
 ${ usage }
