@@ -13,12 +13,11 @@ This generator was created so that users can quickly create a professional READM
 - [License](#license)
 
 ## Installation
-Once you have forked this repository to your local system, please initialize the npm modules into the repo through the command 
-`npm init`
+Once you have forked this repository to your local system, please initialize the npm modules into the repo through the command `npm init`
 
 ## Usage
 
-- The `index.js` file contains the question prompt for the README generator
+- The index.js file contains the question prompt for the README generator
 - Initialize your command-line and move to the 'Develop' folder in the repository
 - Initialize the generator by going to your computer terminal and enter `node index.js` into your command line 
 - Answer the following questions

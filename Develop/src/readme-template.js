@@ -46,7 +46,7 @@ ${ steps }
 ## Usage
 ${ usage }
 
-!(${ media })
+![](${ media })
 
 ## License
 This application is licensed under the ${ license } license. Please click on the link below to learn more.
