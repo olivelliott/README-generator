@@ -31,7 +31,7 @@ This generator can be used to save time and keystrokes for a GitHub contributor.
 ## License
 This application is licensed under the MIT license. Please click on the link below to learn more.
 
-![(https://opensource.org/licenses/MIT)]
+https://opensource.org/licenses/MIT
 
 
 ## Contributing
@@ -42,6 +42,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please direct any questions about this project to olivelliott48@gmail.com. If you would like to see more projects, visit the GitHub link below.
 
-![GitHub] (https://www.github.com/olivelliott)
+https://www.github.com/olivelliott
 
 
