@@ -13,7 +13,6 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const generatePage = require('./src/readme-template.js');
 const { writeFile } = require('./utils/generate-readme.js');
-const generateLicense = require('./utils/generateMarkdown')
 
 //  ? Done - TEST
 // WHEN I enter my project title
@@ -56,7 +55,7 @@ const projectDescription = () => {
         {
             type: 'input',
             name: 'description',
-            message: 'Please provide a description of your project (Required)',
+            message: 'Please provide a description of your project. What was your goal? (Required)',
             validate: descriptionInput => {
                 if (descriptionInput) {
                     return true;
@@ -85,7 +84,7 @@ const projectDescription = () => {
             type: 'list',
             name: 'license',
             message: 'Please choose a license for this project',
-            choices: ['MIT', 'Apache', 'GPL']
+            choices: ['MIT', 'Apache 2.0', 'GPL']
         },
         {
             type: 'input',
@@ -100,7 +99,7 @@ const projectDescription = () => {
         {
             type: 'input',
             name: 'link',
-            message: 'Please enter a link to your github repository'
+            message: 'Please enter your github username'
         },
         {
             type: 'input',
@@ -116,20 +115,6 @@ projectDescription()
     .then(readmeData => {
         return generatePage(readmeData)
     })
-    .then(licenseData => {
-        return generateLicense(licenseData)
-    })
     .then(fileContent => {
-        console.log(fileContent);
         return writeFile(fileContent)
     })
-
-
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
