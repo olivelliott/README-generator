@@ -25,7 +25,9 @@ Once you have forked this repository to your local system, please initialize the
 
 This generator can be used to save time and keystrokes for a GitHub contributor. High quality README files are important for open source projects on GitHub to increase the likelihood that other developers will contribute to the success of a project. They also provide accessibility to your applications so that your projects can be used in a wider scope.
 
-![Demonstration](https://drive.google.com/file/d/1dHLEwTIufTYf7pyNsylbX3wCh1IFPSa1/preview)
+### Demonstration
+
+https://drive.google.com/file/d/1dHLEwTIufTYf7pyNsylbX3wCh1IFPSa1/preview
 
 ![](./assets/images/readme.gif)
 
