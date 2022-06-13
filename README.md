@@ -9,8 +9,10 @@ This generator was created so that users can quickly create a professional READM
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Demonstration](#demonstration)
 - [License](#license)
+- [Contributing](#contributing)
+- [Questions](#questions)
 
 ## Installation
 Once you have forked this repository to your local system, please initialize the npm modules into the repo through the command `npm init`

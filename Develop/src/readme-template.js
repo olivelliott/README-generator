@@ -37,8 +37,11 @@ ${ description }
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Demonstration](#demonstration)
 - [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)]
+- [Questions](#questions)
 
 ## Installation
 ${ steps }
@@ -46,13 +49,13 @@ ${ steps }
 ## Usage
 ${ usage }
 
+### Demonstration
 ![](${ media })
 
 ## License
 This application is licensed under the ${ license } license. Please click on the link below to learn more.
 
 ${renderLicenseLink(license)}
-
 
 ## Contributing
 
