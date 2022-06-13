@@ -4,12 +4,14 @@
 
 ## Description
 Description here
-
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Demonstration](#demonstration)
 - [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)]
+- [Questions](#questions)
 
 ## Installation
 steps<br /> - install npm

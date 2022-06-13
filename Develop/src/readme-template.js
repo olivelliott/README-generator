@@ -40,7 +40,7 @@ ${ description }
 - [Demonstration](#demonstration)
 - [License](#license)
 - [Contributing](#contributing)
-- [Tests](#tests)]
+- [Tests](#tests)
 - [Questions](#questions)
 
 ## Installation
